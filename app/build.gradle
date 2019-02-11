@@ -14,6 +14,11 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField 'String', "YOUTUBE_API_KEY", YouTubeApiKey
+        }
+        debug {
+            buildConfigField 'String', "YOUTUBE_API_KEY", YouTubeApiKey
         }
     }
     compileOptions {
@@ -36,6 +41,8 @@ dependencies {
     implementation 'com.google.dagger:dagger-android-support:2.20'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.20'
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.20'
+    // YouTube Player
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
     // Test Libraries
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
