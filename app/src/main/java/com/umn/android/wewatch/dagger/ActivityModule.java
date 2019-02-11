@@ -1,6 +1,6 @@
-package com.ryu.yehyun.wewatch.dagger;
+package com.umn.android.wewatch.dagger;
 
-import com.ryu.yehyun.wewatch.MainActivity;
+import com.umn.android.wewatch.MainActivity;
 
 import dagger.Module;
 import dagger.android.ContributesAndroidInjector;

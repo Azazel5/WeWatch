@@ -1,12 +1,12 @@
-package com.ryu.yehyun.wewatch;
+package com.umn.android.wewatch;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 
-import com.ryu.yehyun.wewatch.dagger.ApplicationModule;
-import com.ryu.yehyun.wewatch.dagger.DaggerApplicationComponent;
+import com.umn.android.wewatch.dagger.ApplicationModule;
+import com.umn.android.wewatch.dagger.DaggerApplicationComponent;
 
 import javax.inject.Inject;
 

@@ -1,7 +1,7 @@
-package com.ryu.yehyun.wewatch.dagger;
+package com.umn.android.wewatch.dagger;
 
-import com.ryu.yehyun.wewatch.MainViewModel;
-import com.ryu.yehyun.wewatch.WeWatchApplication;
+import com.umn.android.wewatch.MainViewModel;
+import com.umn.android.wewatch.WeWatchApplication;
 
 import javax.inject.Singleton;
 

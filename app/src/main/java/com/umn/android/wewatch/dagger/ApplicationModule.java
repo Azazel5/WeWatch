@@ -1,4 +1,4 @@
-package com.ryu.yehyun.wewatch.dagger;
+package com.umn.android.wewatch.dagger;
 
 import android.app.Application;
 import android.content.Context;

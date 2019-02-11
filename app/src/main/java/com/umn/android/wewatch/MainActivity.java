@@ -1,4 +1,4 @@
-package com.ryu.yehyun.wewatch;
+package com.umn.android.wewatch;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.SharedPreferences;

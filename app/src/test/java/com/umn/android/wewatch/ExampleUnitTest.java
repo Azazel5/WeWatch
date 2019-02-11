@@ -1,4 +1,4 @@
-package com.ryu.yehyun.wewatch;
+package com.umn.android.wewatch;
 
 import org.junit.Test;
 

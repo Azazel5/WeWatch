@@ -1,10 +1,10 @@
-package com.ryu.yehyun.wewatch;
+package com.umn.android.wewatch;
 
 import android.app.Activity;
 import android.app.Application;
 
-import com.ryu.yehyun.wewatch.dagger.ApplicationModule;
-import com.ryu.yehyun.wewatch.dagger.DaggerApplicationComponent;
+import com.umn.android.wewatch.dagger.ApplicationModule;
+import com.umn.android.wewatch.dagger.DaggerApplicationComponent;
 
 import javax.inject.Inject;
 

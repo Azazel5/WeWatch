@@ -1,4 +1,4 @@
-package com.ryu.yehyun.wewatch;
+package com.umn.android.wewatch;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
