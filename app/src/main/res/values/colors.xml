@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#cccccc</color>
     <color name="colorAccent">#FF0000</color>
+    <color name="search_bar_tint">#e0e0e0</color>
 </resources>
