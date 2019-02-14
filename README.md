@@ -1,2 +1,2 @@
 # WeWatch
-Watch together app for YouTube
+Watch Together App for YouTube

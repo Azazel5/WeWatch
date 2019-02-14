@@ -22,4 +22,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- YouTube Player Theme -->
+    <style name="AppTheme.YouTubePlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
 </resources>
