@@ -16,19 +16,19 @@ public class RoomActivity extends YouTubeBaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room);
 
-        youTubePlayerView = findViewById(R.id.room_youtube_player);
-
-        youTubePlayerView.initialize(BuildConfig.YOUTUBE_API_KEY,
-                new YouTubePlayer.OnInitializedListener() {
-                    @Override
-                    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                        youTubePlayer.cueVideo("gnLZFfgNEX8");
-                    }
-
-                    @Override
-                    public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-                        Log.e("RoomActivity", "Youtube initialization failed.");
-                    }
-                });
+//        youTubePlayerView = findViewById(R.id.room_youtube_player);
+//
+//        youTubePlayerView.initialize(BuildConfig.YOUTUBE_API_KEY,
+//                new YouTubePlayer.OnInitializedListener() {
+//                    @Override
+//                    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
+//                        youTubePlayer.cueVideo("gnLZFfgNEX8");
+//                    }
+//
+//                    @Override
+//                    public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
+//                        Log.e("RoomActivity", "Youtube initialization failed.");
+//                    }
+//                });
     }
 }
