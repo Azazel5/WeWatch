@@ -17,6 +17,11 @@
         <activity
             android:name="com.umn.android.wewatch.MainActivity"
             android:theme="@style/AppTheme.Launcher">
+        </activity>
+
+        <activity
+            android:name="com.umn.android.wewatch.RoomActivity"
+            android:theme="@style/AppTheme.YouTubePlayer">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -24,10 +29,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name="com.umn.android.wewatch.RoomActivity"
-            android:theme="@style/AppTheme.YouTubePlayer" />
 
     </application>
 
