@@ -1,9 +1,9 @@
 package com.umn.android.wewatch;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
+import androidx.lifecycle.AndroidViewModel;
 import android.content.SharedPreferences;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.umn.android.wewatch.dagger.ApplicationModule;
 import com.umn.android.wewatch.dagger.DaggerApplicationComponent;
